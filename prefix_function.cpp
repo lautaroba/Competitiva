@@ -1,4 +1,4 @@
-vector<int> Zfunction(const string &s){
+vector<int> prefix_function(const string &s){
 	int n = s.size();
 	vector<int> p(n);
 	for (int i = 1; i < n; i++) {
