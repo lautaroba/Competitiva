@@ -1,6 +1,6 @@
 //busqueda en profundidad o DFS, GRAFOS
 
-vector adj[N];
+vector adj[N]; // vector<vector<int>> adj;
 bool visited[N];
 
 void dfs(int s) {
