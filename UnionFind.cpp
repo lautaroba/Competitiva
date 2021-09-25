@@ -1,3 +1,6 @@
+vector<int> link;
+vector<int> size;
+
 for (int i = 1; i <= n; i++) link[i] = i;
 for (int i = 1; i <= n; i++) size[i] = 1;
 
